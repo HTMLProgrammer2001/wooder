@@ -1,6 +1,6 @@
 @media all and (max-width: 900px){
 	.header-content-menu-item, .header-content-translate, .quality-text, .quality-content-item-text, .about-content-text{
-		font-size: 1rem !important;
+		font-size: 1rem;
 	}
 
 	.about-cont{
@@ -51,7 +51,7 @@
 	    flex-direction: column;
 	    
 	    position: absolute;
-	    top: calc(10vmin + 1rem);
+	    top: calc(20vmin + 1rem);
 	    left: 0;
 	    
 	    z-index: 1;
@@ -87,7 +87,7 @@
     }
 }
 
-@media (max-width: 500px), (max-height: 500px){
+@media (max-width: 250px), (max-height: 250px){
     nav{
      top: calc(50px + 1rem);   
     }
