@@ -1,0 +1,126 @@
+@media all and (max-width: 900px){
+	.header-content-menu-item, .header-content-translate, .quality-text, .quality-content-item-text, .about-content-text{
+		font-size: 1rem !important;
+	}
+
+	.about-cont{
+		flex-direction: column;
+	}
+
+	.video-content{
+		padding: 2rem 1rem 2rem 8rem !important;
+
+		.half{
+			flex-basis: 75%;
+		}
+	}
+
+	.video-vert-line.half{
+		flex-basis: 25%;
+	}
+
+	.header-content{
+		&-logo{
+			font-size: 1.5rem;
+		}
+
+		&-menu-item{
+			text-align: center;
+
+			min-width: 25vmin;
+
+			line-height: 1;
+
+			padding: 10px;
+			margin: 0;
+
+			&:last-child{
+				margin-bottom: 1px;
+			}
+		}
+	}
+	
+	nav{
+	    height: 0;
+	    
+	    box-sizing: border-box;
+	    
+	    overflow: hidden;
+	    
+	    display: flex;
+	    flex-direction: column;
+	    
+	    position: absolute;
+	    top: calc(10vmin + 1rem);
+	    left: 0;
+	    
+	    z-index: 1;
+	    
+	    background: rgba(0, 0, 0, .9);
+	}
+	
+	.furn-container{
+	    flex-direction: column;
+	}
+	
+	.furniture-content{
+	    order: 1;
+	    
+	    padding-top: 2rem;
+	}
+	
+	.burger{
+	    opacity: 1;
+	}
+	
+	.header-logo-line{
+	    left: 2rem;
+	    width: 2.25rem;
+	}
+	
+	.footer-line{
+	    top: .9rem;
+	}
+	
+	.intro-content-text-head{   
+        letter-spacing: 0rem;
+    }
+}
+
+@media (max-width: 500px), (max-height: 500px){
+    nav{
+     top: calc(50px + 1rem);   
+    }
+}
+
+@media all and (max-width: 600px){
+    html{
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 450px){
+    .quality-content{
+        flex-direction: column;
+    }
+    
+    .quality-content-item{
+        margin-top: 2rem;
+    }
+    
+    .intro-content-text-head{
+        font-size: 3rem;
+    }
+    
+    .but{
+        width: auto;
+    }
+    
+    .furniture-content-header{
+        font-size: 2rem;
+    }
+    
+    .video-content-head, .video-content-text{
+        font-size: 1rem;
+    }
+}
